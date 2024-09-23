@@ -1,31 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: 'Poppins', sans-serif; */
-  font-family: 'Bai Jamjuree', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(43deg, #000081 0%, #6363B3 46%, #F8F8FE 100%);
+  /* background-image: linear-gradient(43deg, #000081 0%, #6363B3 46%, #F8F8FE 100%); */
+  background-image: linear-gradient(43deg, #FFA500 1%, #FF7F50 33%, #F8F8FE  100%);
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
 }
 
 .container {
   text-align: center;
   background: #fff;
   padding: 3rem 2rem;
-  border-radius: 15px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 400px;
-  transition: transform 0.3s ease;
+  transition: transform 0.2s ease;
 }
 
 .container:hover {
@@ -35,23 +35,22 @@ body {
 h1 {
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: #444;
-  font-weight: bold;
+  color: #333;
+  font-weight: 700;
 }
 
 /* Hover Box */
 .hover-box {
   padding: 15px;
-  background-color: #ff6b6b;
+  background-color: #ffa502;
   color: white;
-  border-radius: 15px;
+  border-radius: 30px;
   margin-bottom: 30px;
-  transition: all 0.4s ease;
+  transition: background-color 0.3s ease;
 }
 
 .hover-box:hover {
-  transform: translateY(-15px) rotate(10deg);
-  background: #ff4757;
+  background-color: #ff7f50;
 }
 
 /* Click Button */
@@ -70,12 +69,10 @@ h1 {
 
 .click-btn:hover {
   background-color: #3742fa;
-  transform: translateY(-5px);
 }
 
 .click-btn:active {
   background-color: #2f3542;
-  transform: translateY(5px);
 }
 
 /* Input Box */
@@ -90,13 +87,14 @@ h1 {
   border: 2px solid transparent;
   border-radius: 30px;
   font-size: 16px;
+  border: 2px solid #74ebd5;
   transition: all 0.3s ease;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
   outline: none;
 }
 
 .input-box input:focus {
-  border: 2px solid #ff6b6b;
+  border: 2px solid #ffa502;
   background: #f5f5f5;
 }
 
